@@ -122,7 +122,7 @@ const Home = () => {
       userMenu={userMenuMarkup}
       onNavigationToggle={toggleMobileNavigationActive}
       secondaryMenu={secondaryMenuMarkup}
-      // searchField={thirdMenuMarkup}
+      searchField={thirdMenuMarkup}
     />
   );
 
