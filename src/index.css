@@ -1,0 +1,30 @@
+@import "@shopify/polaris/build/esm/styles.css";
+
+#AppFrameMain {
+  background: url("./assets/image/bg.png") no-repeat;
+  background-size: cover;
+}
+
+.Polaris-Navigation__ListItem {
+  margin: 10px 0;
+}
+
+.Polaris-Text--root.Polaris-Text--headingXs.Polaris-Text--subdued {
+  font-size: 14px;
+  font-weight: 700;
+  color: #aaa;
+}
+
+.Polaris-Frame__Main {
+  background: #f2f6f9;
+}
+
+.Polaris-Navigation {
+  background: #f2f6f9;
+}
+
+.Polaris-IndexTable__TableCell > span > .Polaris-Icon {
+  width: 10px;
+  height: 10px;
+  margin: 0;
+}
